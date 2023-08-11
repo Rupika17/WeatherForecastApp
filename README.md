@@ -29,7 +29,11 @@ Implementation Details:
 
 - API integration implemented Weather Forecast API (e.g. www.weatherapi.com API).
 
+- City suggestion api is also used to search city in the search box.
+
 - The user interface design and user experience is enhanced by adding styling and layout components.
+
+- You can search weather details of your typed / current location on cicking the icon at the right corner.
 
 Enjoy building your Weather Forecast App!
 

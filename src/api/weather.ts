@@ -50,3 +50,14 @@ export const fetchCities = async (search: string) => {
     }
   
   };
+
+  export const fetchCurrentLocation = async ( latitude: number, longitude: number ) => {
+    let url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`;
+    var headers = {};
+    return await (await fetch(url, {
+      method: "GET",
+      mode: "cors",
+      headers: headers,
+    })).json();
+  };
+  

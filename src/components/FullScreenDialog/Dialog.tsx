@@ -104,7 +104,6 @@ const FullScreenDialog: React.FC<DialogProps> = ({ isOpen, onClose }) => {
               <h4>
                 {location.name},{location.country}
               </h4>
-              {/* <ToggleSwitch onClick={() => dispatch(changeTempUnit())} /> */}
               <h6>{formatDate(weather?.last_updated?.split(" ")[0])}</h6>
               <div style={{ display: "flex" }}>
                 <ImgRow src={weather.condition.icon} />
