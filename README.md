@@ -25,13 +25,11 @@ Implementation Details:
 
 - The project uses TypeScript for type-safe development and improved tooling.
 
-- The Redux state management is not included in this basic example. You can extend the project by implementing Redux for managing the application's state.
+- The Redux state management is included in this application. 
 
-- API integration is not implemented in this basic example. You can add API calls to fetch weather data for the provided city input.
+- API integration implemented Weather Forecast API (e.g. www.weatherapi.com API).
 
-- The user interface design and user experience can be enhanced by adding styling and layout components.
-
-Feel free to explore and extend the project as per your requirements. If you have any questions or need further assistance, please don't hesitate to contact us.
+- The user interface design and user experience is enhanced by adding styling and layout components.
 
 Enjoy building your Weather Forecast App!
 
