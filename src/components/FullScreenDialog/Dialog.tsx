@@ -108,6 +108,8 @@ const FullScreenDialog: React.FC<DialogProps> = ({ isOpen, onClose }) => {
               <h6>{formatDate(weather?.last_updated?.split(" ")[0])}</h6>
               <div style={{ display: "flex" }}>
                 <ImgRow src={weather.condition.icon} />
+              </div>
+              <div style={{ display: "flex" }}>
                 <span>
                   {degreeType === TempUnit.CELCIUS ? (
                     <Temperature value={weather?.temp_c} />
